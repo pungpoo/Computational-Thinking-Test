@@ -1,0 +1,676 @@
+<xml xmlns="http://www.w3.org/1999/xhtml"><block type="factory_base" id="iIIQ5:.15Dch.*ID%5:Z" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">direction_moveup</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="mh:OW:r9AZzjv.nndNYk">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="MD4k$*XX]%8xWpJDz_X.">
+            <field name="TEXT">Move Up</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="0,QRmz7`S{bxwW4i^6T9" deletable="false" movable="false">
+        <field name="TEXT">เดินขึ้นข้างบน 1 ช่อง</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="4Te+AmMqkeD}`iO_1=GJ" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="m60_rwtCq]`.*T(y3|S8"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="IZ5)%x0^1jchyF_P{?cn"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="QI|.DoV#M3fM/bP{%|d7">
+        <mutation colour="#5ba58c"></mutation>
+        <field name="HUE">160</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="iIIQ5:.15Dch.*ID%5:Z" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">direction_movedown</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="mh:OW:r9AZzjv.nndNYk">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="MD4k$*XX]%8xWpJDz_X.">
+            <field name="TEXT">Move Down</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="0,QRmz7`S{bxwW4i^6T9" deletable="false" movable="false">
+        <field name="TEXT">เดินลงข้างล่าง 1 ช่อง</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="4Te+AmMqkeD}`iO_1=GJ" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="m60_rwtCq]`.*T(y3|S8"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="IZ5)%x0^1jchyF_P{?cn"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="s_C^uG)LbgJy]k=,vETg">
+        <mutation colour="#5ba58c"></mutation>
+        <field name="HUE">160</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="iIIQ5:.15Dch.*ID%5:Z" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">direction_moveright</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="mh:OW:r9AZzjv.nndNYk">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="MD4k$*XX]%8xWpJDz_X.">
+            <field name="TEXT">Move Right</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="0,QRmz7`S{bxwW4i^6T9" deletable="false" movable="false">
+        <field name="TEXT">เดินไปทางขวา 1 ช่อง</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="4Te+AmMqkeD}`iO_1=GJ" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="m60_rwtCq]`.*T(y3|S8"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="IZ5)%x0^1jchyF_P{?cn"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="^L5suj_(`Nim2[b{Maa@">
+        <mutation colour="#5ba58c"></mutation>
+        <field name="HUE">160</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="iIIQ5:.15Dch.*ID%5:Z" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">direction_moveleft</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="mh:OW:r9AZzjv.nndNYk">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="MD4k$*XX]%8xWpJDz_X.">
+            <field name="TEXT">Move Left</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="0,QRmz7`S{bxwW4i^6T9" deletable="false" movable="false">
+        <field name="TEXT">เดินไปทางซ้าย 1 ช่อง</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="4Te+AmMqkeD}`iO_1=GJ" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="m60_rwtCq]`.*T(y3|S8"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="IZ5)%x0^1jchyF_P{?cn"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="FYE6UY:*X{!KocpS;gYL">
+        <mutation colour="#5ba58c"></mutation>
+        <field name="HUE">160</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="4]2VXwf/+t~~KKQNwQ^u" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">direction_gostraight</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="J.s-+/uGXoFX`ZuB4:?/">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="7!){?#apnY{oxF`1II}C">
+            <field name="TEXT">Go Straight</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="Q|IbeY5s6k!Cc]5C-brb" deletable="false" movable="false">
+        <field name="TEXT">เดินตรงไปข้างหน้าเรื่อยๆ</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="SOR%KqM{1%ry0Dc@$5)m" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="uvq59DK%rS)_n$5AuBO="></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="4m8c0W{Qr}Yy`,oBj3@d"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="0)iTYp$3b${,%~%{3nP.">
+        <mutation colour="#5b80a5"></mutation>
+        <field name="HUE">210</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="iIIQ5:.15Dch.*ID%5:Z" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">direction_repeat</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="~*k;:eCyl1:Gavj9%Txt">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="y^T*L3^#u+?]wHJgvg1^">
+            <field name="TEXT">Repeat</field>
+            <next>
+              <block type="field_dropdown" id="/8w_;Q9zf!3Foh~TFbYZ">
+                <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                <field name="FIELDNAME">loop</field>
+                <field name="USER0">2</field>
+                <field name="CPU0">2</field>
+                <field name="USER1">3</field>
+                <field name="CPU1">3</field>
+                <field name="USER2">4</field>
+                <field name="CPU2">4</field>
+                <field name="USER3">5</field>
+                <field name="CPU3">5</field>
+                <field name="USER4">6</field>
+                <field name="CPU4">6</field>
+                <next>
+                  <block type="field_static" id="(,6AZ.1MWPr$N/ph|hC-">
+                    <field name="TEXT">times</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="n)n@]Cr2@8Znsb^VV~oD">
+            <field name="INPUTNAME">NAME</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="KWB1x::y)8fQ;:RT1%n/"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="0,QRmz7`S{bxwW4i^6T9" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="4Te+AmMqkeD}`iO_1=GJ" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="m60_rwtCq]`.*T(y3|S8"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="IZ5)%x0^1jchyF_P{?cn"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id=",R4uw[/^1u_miIgyxlC;">
+        <mutation colour="#9fa55b"></mutation>
+        <field name="HUE">65</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="4]2VXwf/+t~~KKQNwQ^u" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">direction_moveforward</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="J.s-+/uGXoFX`ZuB4:?/">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="7!){?#apnY{oxF`1II}C">
+            <field name="TEXT">Move Forward</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="Q|IbeY5s6k!Cc]5C-brb" deletable="false" movable="false">
+        <field name="TEXT">เดินตรงไปข้างหน้า 1 ก้าว</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="SOR%KqM{1%ry0Dc@$5)m" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="uvq59DK%rS)_n$5AuBO="></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="4m8c0W{Qr}Yy`,oBj3@d"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id=")Kme)5)q|},T.LpcN7FH">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="4]2VXwf/+t~~KKQNwQ^u" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">direction_turnleft</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="J.s-+/uGXoFX`ZuB4:?/">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="7!){?#apnY{oxF`1II}C">
+            <field name="TEXT">Turn Left</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="Q|IbeY5s6k!Cc]5C-brb" deletable="false" movable="false">
+        <field name="TEXT">หันไปทางซ้าย (อยู่กับที่)</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="SOR%KqM{1%ry0Dc@$5)m" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="uvq59DK%rS)_n$5AuBO="></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="4m8c0W{Qr}Yy`,oBj3@d"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="Ahh@qFNkN*dn~?j,1ckt">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="4]2VXwf/+t~~KKQNwQ^u" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">direction_turnright</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="J.s-+/uGXoFX`ZuB4:?/">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="7!){?#apnY{oxF`1II}C">
+            <field name="TEXT">Turn Right</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="Q|IbeY5s6k!Cc]5C-brb" deletable="false" movable="false">
+        <field name="TEXT">หันไปทางขวา (อยู่กับที่)</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="SOR%KqM{1%ry0Dc@$5)m" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="uvq59DK%rS)_n$5AuBO="></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="4m8c0W{Qr}Yy`,oBj3@d"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="Ahh@qFNkN*dn~?j,1ckt">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="iIIQ5:.15Dch.*ID%5:Z" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">direction_until_front</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="~*k;:eCyl1:Gavj9%Txt">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="PfA_B45nn)cH(iU[:wLZ">
+            <field name="TEXT">Until</field>
+            <next>
+              <block type="field_dropdown" id="u;RKwAXi^oGPBb9zwuXh">
+                <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                <field name="FIELDNAME">place</field>
+                <field name="USER0">บางอย่าง</field>
+                <field name="CPU0">บางอย่าง</field>
+                <field name="USER1">วศิน</field>
+                <field name="CPU1">วศิน</field>
+                <field name="USER2">อรุณา</field>
+                <field name="CPU2">อรุณา</field>
+                <field name="USER3">บ้าน</field>
+                <field name="CPU3">บ้าน</field>
+                <field name="USER4">สำนักงาน</field>
+                <field name="CPU4">สำนักงาน</field>
+                <field name="USER5">ร้านกาแฟ</field>
+                <field name="CPU5">ร้านกาแฟ</field>
+                <field name="USER6">ห้างสรรพสินค้า</field>
+                <field name="CPU6">ห้างสรรพสินค้า</field>
+                <field name="USER7">สตูดิโอแต่งงาน</field>
+                <field name="CPU7">สตูดิโอแต่งงาน</field>
+                <next>
+                  <block type="field_static" id="y^T*L3^#u+?]wHJgvg1^">
+                    <field name="TEXT">อยู่ตรงหน้า</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="n)n@]Cr2@8Znsb^VV~oD">
+            <field name="INPUTNAME">NAME</field>
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="?Dy*DV-/]]SP-i-i1u+`">
+                <field name="TEXT">do</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="KWB1x::y)8fQ;:RT1%n/"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="0,QRmz7`S{bxwW4i^6T9" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="4Te+AmMqkeD}`iO_1=GJ" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="m60_rwtCq]`.*T(y3|S8"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="IZ5)%x0^1jchyF_P{?cn"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="+Mlb#a-21pIoo.(,Ho|W">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="iIIQ5:.15Dch.*ID%5:Z" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">direction_until_meet</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="~*k;:eCyl1:Gavj9%Txt">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="PfA_B45nn)cH(iU[:wLZ">
+            <field name="TEXT">Until</field>
+            <next>
+              <block type="field_static" id="y^T*L3^#u+?]wHJgvg1^">
+                <field name="TEXT">พบ</field>
+                <next>
+                  <block type="field_dropdown" id="u;RKwAXi^oGPBb9zwuXh">
+                    <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                    <field name="FIELDNAME">place</field>
+                    <field name="USER0">ทางไปข้างหน้าได้</field>
+                    <field name="CPU0">ทางไปข้างหน้าได้</field>
+                    <field name="USER1">วศิน</field>
+                    <field name="CPU1">วศิน</field>
+                    <field name="USER2">อรุณา</field>
+                    <field name="CPU2">อรุณา</field>
+                    <field name="USER3">บ้าน</field>
+                    <field name="CPU3">บ้าน</field>
+                    <field name="USER4">สำนักงาน</field>
+                    <field name="CPU4">สำนักงาน</field>
+                    <field name="USER5">ร้านกาแฟ</field>
+                    <field name="CPU5">ร้านกาแฟ</field>
+                    <field name="USER6">ห้างสรรพสินค้า</field>
+                    <field name="CPU6">ห้างสรรพสินค้า</field>
+                    <field name="USER7">สตูดิโอแต่งงาน</field>
+                    <field name="CPU7">สตูดิโอแต่งงาน</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="n)n@]Cr2@8Znsb^VV~oD">
+            <field name="INPUTNAME">NAME</field>
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="?Dy*DV-/]]SP-i-i1u+`">
+                <field name="TEXT">do</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="KWB1x::y)8fQ;:RT1%n/"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="0,QRmz7`S{bxwW4i^6T9" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="4Te+AmMqkeD}`iO_1=GJ" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="m60_rwtCq]`.*T(y3|S8"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="IZ5)%x0^1jchyF_P{?cn"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="+Mlb#a-21pIoo.(,Ho|W">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="iIIQ5:.15Dch.*ID%5:Z" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">direction_while_front</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="~*k;:eCyl1:Gavj9%Txt">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="PfA_B45nn)cH(iU[:wLZ">
+            <field name="TEXT">While</field>
+            <next>
+              <block type="field_dropdown" id="u;RKwAXi^oGPBb9zwuXh">
+                <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                <field name="FIELDNAME">place</field>
+                <field name="USER0">บางอย่าง</field>
+                <field name="CPU0">บางอย่าง</field>
+                <field name="USER1">วศิน</field>
+                <field name="CPU1">วศิน</field>
+                <field name="USER2">อรุณา</field>
+                <field name="CPU2">อรุณา</field>
+                <field name="USER3">บ้าน</field>
+                <field name="CPU3">บ้าน</field>
+                <field name="USER4">สำนักงาน</field>
+                <field name="CPU4">สำนักงาน</field>
+                <field name="USER5">ร้านกาแฟ</field>
+                <field name="CPU5">ร้านกาแฟ</field>
+                <field name="USER6">ห้างสรรพสินค้า</field>
+                <field name="CPU6">ห้างสรรพสินค้า</field>
+                <field name="USER7">สตูดิโอแต่งงาน</field>
+                <field name="CPU7">สตูดิโอแต่งงาน</field>
+                <next>
+                  <block type="field_static" id="y^T*L3^#u+?]wHJgvg1^">
+                    <field name="TEXT">อยู่ตรงหน้า</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="n)n@]Cr2@8Znsb^VV~oD">
+            <field name="INPUTNAME">NAME</field>
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="?Dy*DV-/]]SP-i-i1u+`">
+                <field name="TEXT">do</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="KWB1x::y)8fQ;:RT1%n/"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="0,QRmz7`S{bxwW4i^6T9" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="4Te+AmMqkeD}`iO_1=GJ" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="m60_rwtCq]`.*T(y3|S8"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="IZ5)%x0^1jchyF_P{?cn"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="+Mlb#a-21pIoo.(,Ho|W">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="iIIQ5:.15Dch.*ID%5:Z" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">direction_while_meet</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="~*k;:eCyl1:Gavj9%Txt">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="PfA_B45nn)cH(iU[:wLZ">
+            <field name="TEXT">While</field>
+            <next>
+              <block type="field_static" id="y^T*L3^#u+?]wHJgvg1^">
+                <field name="TEXT">พบ</field>
+                <next>
+                  <block type="field_dropdown" id="u;RKwAXi^oGPBb9zwuXh">
+                    <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                    <field name="FIELDNAME">place</field>
+                    <field name="USER0">ทางไปข้างหน้าได้</field>
+                    <field name="CPU0">ทางไปข้างหน้าได้</field>
+                    <field name="USER1">วศิน</field>
+                    <field name="CPU1">วศิน</field>
+                    <field name="USER2">อรุณา</field>
+                    <field name="CPU2">อรุณา</field>
+                    <field name="USER3">บ้าน</field>
+                    <field name="CPU3">บ้าน</field>
+                    <field name="USER4">สำนักงาน</field>
+                    <field name="CPU4">สำนักงาน</field>
+                    <field name="USER5">ร้านกาแฟ</field>
+                    <field name="CPU5">ร้านกาแฟ</field>
+                    <field name="USER6">ห้างสรรพสินค้า</field>
+                    <field name="CPU6">ห้างสรรพสินค้า</field>
+                    <field name="USER7">สตูดิโอแต่งงาน</field>
+                    <field name="CPU7">สตูดิโอแต่งงาน</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="n)n@]Cr2@8Znsb^VV~oD">
+            <field name="INPUTNAME">NAME</field>
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="?Dy*DV-/]]SP-i-i1u+`">
+                <field name="TEXT">do</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="KWB1x::y)8fQ;:RT1%n/"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="0,QRmz7`S{bxwW4i^6T9" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="4Te+AmMqkeD}`iO_1=GJ" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="m60_rwtCq]`.*T(y3|S8"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="IZ5)%x0^1jchyF_P{?cn"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="+Mlb#a-21pIoo.(,Ho|W">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block></xml>

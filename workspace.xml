@@ -1,0 +1,19 @@
+<xml xmlns="http://www.w3.org/1999/xhtml" id="workspaceBlocks" style="display:none">
+  <block type="direction_moveup" id="i(~WW(3cSVo[$]|SK.DN" x="88" y="37">
+    <next>
+      <block type="direction_moveup" id="P]%GTxM.)D1DJRF#,mYG">
+        <next>
+          <block type="direction_moveright" id="]+MyQ}uYnlk8X,4hKCsL">
+            <next>
+              <block type="direction_moveright" id="*,30O-}^nfF^VtxZUXWu">
+                <next>
+                  <block type="direction_moveright" id="-`yG0.9hP#i655{tO,^v"></block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
